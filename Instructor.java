@@ -3,8 +3,8 @@ public class Instructor extends User
     public String instructorName;
     String ýnstructorName;
 
-    public Instructor(int id, int passaword, String username, String instructorName) {
-        super(id, passaword, username);
+    public Instructor(int id, String username, int passaword, String instructorName) {
+        super(id, username, passaword);
         ýnstructorName = instructorName;
     }
 
